@@ -23,6 +23,14 @@ header{
     
 }
 
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
     
 .nav-bar{
     display: flex;
@@ -61,6 +69,11 @@ li{
     font-size: 18px;
 }
 
+.section-text{
+    position: absolute;
+    top: 50%;
+}
+
 .image{
     max-width: 250px;
     max-height: 350px;
@@ -68,6 +81,10 @@ li{
     overflow: clip;
     margin-top: 18px;
     margin-bottom: 18px;
+}
+
+.bg-image{
+    max-width: 800px ;
 }
 .caring-head-image,.alat-ritual-image-container{
     max-width: 400px;
