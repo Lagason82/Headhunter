@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin-top: 0px;
+}
+a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    max-height: 70px;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    
+}
+
+    
+.nav-bar{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* to add for the marilah pelajari topik css here later */
+
+.history-container,.head-hunter-container,.origin-headhunter-container,.mandau-container,.gayang-container,.punca-container
+,.head-caring-container,.alat-ritual-container,.taming-container,.ritual-container,.soalan-lazim-container,.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+    min-width: 20px;
+    background-color: black;
+    margin-top: 10px;
+}
+.topik{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.history,.head-hunter-text,.origin-headhunter-text,.mandau-text,.gayang-text,.punca-text,.head-caring-text
+,.alat-ritual-text,.taming-text,.ritual-text,.soalan-text,.sosmed-text{ 
+    color: white;
+    text-align: left;
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.image{
+    max-width: 250px;
+    max-height: 350px;
+    object-fit: cover;
+    overflow: clip;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.caring-head-image,.alat-ritual-image-container{
+    max-width: 400px;
+    height: 100%;
+    object-fit: fill;
+    overflow: clip;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.group-info{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.group-name-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.head-hunter-text,.origin-headhunter-text,.mandau-text,.gayang-text,.punca-text,.taming-text{
+    display: flex;
+    column-gap: 10px;
+}
+.soalan{
+    font-weight: bold;
+}
+.sosmed-icon{
+    height: 30px;
+    width: auto;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sosmed-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
