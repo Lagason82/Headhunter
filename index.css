@@ -53,19 +53,6 @@ li{
     padding-top: 10px;
 }
 
-.section-1{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-text{
-    position: absolute;
-    top: 50%;
-}
-
 .history,.head-hunter-text,.origin-headhunter-text,.mandau-text,.gayang-text,.punca-text,.head-caring-text
 ,.alat-ritual-text,.taming-text,.ritual-text,.soalan-text,.sosmed-text{ 
     color: white;
@@ -82,11 +69,6 @@ li{
     margin-top: 18px;
     margin-bottom: 18px;
 }
-
-.bg-image{
-    max-width: 800px;
-}
-
 .caring-head-image,.alat-ritual-image-container{
     max-width: 400px;
     height: 100%;
