@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../klickking.com"
+		},
+		{
+			"name": "Headhunter",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Headhunter"
+	}
+}
